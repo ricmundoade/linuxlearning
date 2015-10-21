@@ -17,7 +17,8 @@ int main()
       scanf("%d", &grados);
       resultado = grados * 1.8 + 32;
       printf(" %d grados Celsius es ", grados);
-      printf("  %f grados Farenheit", resultado);
+//      printf("  %f grados Farenheit", resultado);
+      printf("Creating the patch");
    }
    else
       if(opcion == 2)      
@@ -39,6 +40,4 @@ int main()
       printf("\n pulse enter tecla para salir \n");
       scanf("%d", &opcion);
       return 0; 
-      
-
 }
